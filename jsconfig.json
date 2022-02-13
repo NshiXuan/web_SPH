@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*":[
+        "src/*"
+      ]
+    }
+  },
+  // 在第三方包或打包的时候不能使用@
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
